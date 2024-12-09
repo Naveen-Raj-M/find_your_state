@@ -35,8 +35,9 @@ To execute the `find_your_state.py` script, use the following command:
 python3 -m engine.find_your_state --config-path ../ --config-name config.yaml
 ```
 
+## Configuration Settings
 <details>
-<summary>## Configuration file</summary>
+<summary>Configuration</summary>
 
 ```yaml
 defaults:
@@ -99,8 +100,9 @@ weights:
 
 </details>
 
+## Results
 <details>
-<summary>## Results</summary>
+<summary>Results</summary>
 
 The final result will look like this
 ![Final Ranking of States](results/resultant_utility.png)
