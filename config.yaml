@@ -1,0 +1,40 @@
+defaults:
+  - _self_
+  - override hydra/hydra_logging: disabled  
+  - override hydra/job_logging: disabled  
+
+hydra:
+  output_subdir: null  
+  run:
+    dir: .
+
+# weather configuration
+weather:
+  temperature: 50
+
+# snow configuration
+snowfall:
+  upper_bound: 30
+  lower_bound: 5
+
+# income configuration
+income:
+  minimum: 80000
+
+# risk_affinity configuration
+r:
+  weather: 1
+  snowfall: 0.5
+  employment: 2
+  crime_rate: 2
+  cost_of_living: 1
+  income: 3
+
+# weights configuration
+weights:
+  weather: 10
+  snowfall: 10
+  employment: 20
+  crime_rate: 20
+  cost_of_living: 15
+  income: 25
