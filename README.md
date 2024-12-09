@@ -96,9 +96,34 @@ weights:
 ```
 - This section configures the weights for each criterion. The values represent the relative importance of each criterion in the final decision-making process.
 
+## Results
+The final result will look like this
+![Final Ranking of States](results/resultant_utility.png)
+> Final Ranking of States
+
+Beyond the final ranking, you can also visualize the historic data of average annual temperature for each state, and how each State performed in each criteria
+![Average Annual Temperature](results/weather/indiana.png)
+> PDF of historic data of Annual Average Temperature of Indiana
+
+![Snowfall](results/snowfall/probability_of_snowfall.png)
+> Probability of no of snowfall days being between the given range
+
+![Income](results/income/probability_of_income.png)
+> Probability of average household income greater than the given value
+
+![Employment](results/employment/normalized_employment_rate.png)
+> Performance of various states in employment rate
+
+![Crime Rate](results/crime_rate/normalized_crime_rate.png)
+> Performance of various states in crime rate
+
+![Cost of Living](results/cost_of_living/normalized_cost_of_living_index.png)
+> Performance of various states in cost of living index
+
+
 ## Sources of data
 1. Weather and Snowfall: National Centers for Environmental Information (www.ncei.noaa.gov)
 2. Employment Rate: U.S. Bureau Of Labor Statistics (www.bls.gov)
 3. Cost of Living: Missouri Economic Research and Information Center (https://meric.mo.gov/)
-4. Income: United States Census Bureau (https:/data.census.gov/)
+4. Income: United States Census Bureau (https://data.census.gov/)
 5. Crime Rate: FBI Crime Data Explorer (https://cde.ucr.cjis.gov/)
