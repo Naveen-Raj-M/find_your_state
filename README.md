@@ -99,6 +99,6 @@ weights:
 ## Sources of data
 1. Weather and Snowfall: National Centers for Environmental Information (www.ncei.noaa.gov)
 2. Employment Rate: U.S. Bureau Of Labor Statistics (www.bls.gov)
-3. Cost of Living: Missouri Economic Research and Information Center (www.meric.mo.gov)
-4. Income: United States Census Bureau (www.data.census.gov)
-5. Crime Rate: FBI Crime Data Explorer (www.cde.ucr.cjis.gov)
+3. Cost of Living: Missouri Economic Research and Information Center (https://meric.mo.gov/)
+4. Income: United States Census Bureau (https:/data.census.gov/)
+5. Crime Rate: FBI Crime Data Explorer (https://cde.ucr.cjis.gov/)
