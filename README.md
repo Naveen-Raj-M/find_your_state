@@ -1,7 +1,7 @@
 # Find Your State
 
 ## Description
-This project helps users decide which American state is best to live in based on the following criteria: 
+This project helps users decide which American state is the best to live in based on the following criteria: 
 1. Income 
 2. Employment Rate 
 3. Cost of Living 
@@ -35,7 +35,8 @@ To execute the `find_your_state.py` script, use the following command:
 python3 -m engine.find_your_state --config-path ../ --config-name config.yaml
 ```
 
-## Configuration file
+<details>
+<summary>## Configuration file</summary>
 
 ```yaml
 defaults:
@@ -96,12 +97,17 @@ weights:
 ```
 - This section configures the weights for each criterion. The values represent the relative importance of each criterion in the final decision-making process.
 
-## Results
+</details>
+
+<details>
+<summary>## Results</summary>
+
 The final result will look like this
 ![Final Ranking of States](results/resultant_utility.png)
 > Final Ranking of States
 
 Beyond the final ranking, you can also visualize the historic data of average annual temperature for each state, and how each State performed in each criteria
+
 ![Average Annual Temperature](results/weather/indiana.png)
 > PDF of historic data of Annual Average Temperature of Indiana
 
@@ -119,6 +125,8 @@ Beyond the final ranking, you can also visualize the historic data of average an
 
 ![Cost of Living](results/cost_of_living/normalized_cost_of_living_index.png)
 > Performance of various states in cost of living index
+
+</details>
 
 
 ## Sources of data
