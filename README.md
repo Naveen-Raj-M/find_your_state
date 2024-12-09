@@ -1,12 +1,20 @@
 # Find Your State
 
 ## Description
-This project is designed to help users to decide which American State is best to live based on the following criteria. 1. Income 2. Employment Rate 3. Cost of Living 4. Crime Rate 5. Annual Average Temperature 6. No of snowfall days. You can customize these criteria to your need. The instructions on them are described in the configuration settings.
+This project helps users decide which American state is best to live in based on the following criteria: 
+1. Income 
+2. Employment Rate 
+3. Cost of Living 
+4. Crime Rate 
+5. Annual Average Temperature 
+6. Number of Snowfall Days
+
+You can customize these criteria to your needs. Instructions are provided in the configuration settings.
 
 ## Cloning the Repository and Setting Up the Virtual Environment
 To get started with the project, follow these steps:
 
-1. Clone the git repository:
+1. Clone the repository:
     ```sh
     git clone https://github.com/Naveen-Raj-M/find_your_state.git
     ```
@@ -71,7 +79,7 @@ r:
     cost_of_living: 1
     income: 3
 ```
-- This section configures the risk affinity for each criterion. 
+- This section configures the risk affinity for each criterion. Set 
     `r` < 1 for risk-aversive utility
     `r` = 1 for risk-neutral utility
     `r` > 1 for risk-seeking utility
@@ -87,3 +95,15 @@ weights:
     income: 25
 ```
 - This section configures the weights for each criterion. The values represent the relative importance of each criterion in the final decision-making process.
+
+## Sources of data
+
+1. Weather and Snowfall: National Centers for Environmental Information (www.ncei.noaa.gov)
+
+2. Employment Rate: U.S. Bureau Of Labor Statistics (www.bls.gov)
+
+3. Cost of Living: Missouri Economic Research and Information Center (meric.mo.gov)
+
+4. Income: United States Census Bureau (data.census.gov)
+
+5. Crime Rate: FBI Crime Data Explorer (cde.ucr.cjis.gov)
