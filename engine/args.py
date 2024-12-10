@@ -6,12 +6,12 @@ from hydra.core.config_store import ConfigStore
 
 @dataclass
 class WeatherConfig:
-    temperature: int = 70
+    temperature: float = 70
 
 @dataclass
 class SnowfallConfig:
-    upper_bound: int = 5
-    lower_bound: int = 50
+    upper_bound: float = 5
+    lower_bound: float = 50
 
 @dataclass
 class IncomeConfig:
