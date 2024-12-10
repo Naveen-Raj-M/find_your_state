@@ -38,6 +38,7 @@ python3 -m engine.find_your_state --config-path ../ --config-name config.yaml
 ## Configuration Settings
 <details>
 <summary>Configuration</summary>
+As I already mentioned, you can configure the criteria as per your need. To start with, open `config.yaml` file.
 
 ```yaml
 defaults:
