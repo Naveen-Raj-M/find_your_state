@@ -20,6 +20,7 @@ To get started with the project, follow these steps:
     ```
 
 If you don't have `Git` installed in your computer, find and click the green `Code` button near the top right. Select the `Download ZIP` option. You can unzip the file to access the contents locally in the computer
+
 2. Navigate to the project directory:
     ```sh
     cd find_your_state
